@@ -46,11 +46,12 @@ const App = () => {
       <section>
         {weatherForecasts.map((forecast) => (
           <WeatherForecast
-            day={forecast.day}
-            img={forecast.img}
-            imgAlt={forecast.imgAlt}
-            conditions={forecast.conditions}
-            time={forecast.time}
+            // day={forecast.day}
+            // img={forecast.img}
+            // imgAlt={forecast.imgAlt}
+            // conditions={forecast.conditions}
+            // time={forecast.time}
+            {...forecast}
           />
         ))}
       </section>
